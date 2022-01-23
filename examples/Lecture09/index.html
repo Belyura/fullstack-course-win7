@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app='DIApp'>   <!--ng-app - приложение, которое называем также как и в app.js   -->
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Dependency Injection in Javascript     <!--Инъекции в ДжаваСкрипт(в Андуларе в частности)-->
+      (and AngularJS)</title>
+  </head>
+  <body>
+    <h1>Dependency Injection in Javascript
+        (and AngularJS)</h1>
+    <div ng-controller='DIController'> 
+      <input type="text"
+             ng-model="name"   
+             ng-blur="upper();"> <!--ng-blur - параметр, который говорт о том, что текстовое поле потеряет фокус --> <!--ng-model - это значение в текстовом поле-->
+                        
+    </div>
+    
+  </body>
+</html>
+
+
+
+  
